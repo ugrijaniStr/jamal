@@ -1,0 +1,36 @@
+.mainArea {
+    width: 100%;
+    height: 100%;
+    background: rgb(28, 28, 28);
+}
+
+.mainBox {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    background: rgba(255, 255, 255, 0.219);
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.parentBox {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.childBox {
+    width: 50%;
+    height: 100%;
+    &:first-child {
+
+    }&:last-child {
+
+    }
+}
